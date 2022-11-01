@@ -1,0 +1,126 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+
+.container {
+  padding: 16px;
+  text-align: center;
+}
+
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: #5b5f68d2;
+  padding-top: 50px;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;
+  border: 1px solid #888;
+  width: 80%; 
+  border-radius: 10px;
+}
+
+.close {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  right: 55px;
+  top: 55px;
+  font-size: 49px;
+  font-weight: bold;
+  color: #b83930e8;
+  border: 0px solid rgb(65, 62, 62);
+  border-radius: 50%;
+  background-color: rgb(213, 213, 213);
+
+}
+
+.hideModal{
+    display: none !important;
+}
+.showModal{
+    display: block !important;
+}
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+  background-color: aliceblue;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.box{
+    border-radius: 8px;
+}
+.form-div{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.form-labels{
+    display: flex;
+    flex-direction: column;
+    text-align: initial;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.form-fields{
+    display: flex;
+    flex-direction: column;
+    text-align: initial;
+    max-width: 25%;
+    min-width: 25%;
+    
+}
+
+label{
+    margin: 5px;
+    padding: 2px;
+    height: 40px;
+}
+input{
+    margin: 5px;
+    padding: 5px 2px 5px 2px;
+    height: 40px;
+    border-radius: 7px;
+}
+#inputValue{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+#form-submit{
+    margin-top: 20px;
+    width: 20%;
+    padding: 8px;
+    border-radius: 4px;
+    border :0px;
+    background-color: rgb(190, 190, 190);
+    font-weight: bold;
+}
+
+#form-submit:hover,#form-submit:focus{
+  background-color: rgb(149, 168, 192);
+  color: #ffff;
+}
+
+@media screen and (max-width: 300px) {
+  .cancelbtn, .deletebtn {
+     width: 100%;
+  }
+}

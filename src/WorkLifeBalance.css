@@ -1,0 +1,62 @@
+#logo{
+    padding-bottom: 0px;
+}
+
+.data{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    border: 1px solid rgba(126, 126, 126, 0);
+    border-radius: 10px;
+    margin: auto;
+}
+
+.labels{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    padding-right: 5px;
+    text-align: end;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#trackHeader{
+     display: inline-block;
+     border-bottom: 1px solid 
+}
+#id01{
+    margin: auto;
+    
+    width: 100%;
+    padding: 5px;
+    font-weight: bold;
+    color: rgb(124, 124, 124);
+}
+.values{
+    margin-left: 5px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:black;
+    font-weight: bold;
+}
+
+/* .values{
+    display: flex;
+    flex-direction: column;
+} */
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
